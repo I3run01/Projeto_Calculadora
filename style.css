@@ -36,6 +36,7 @@ h1 {
     padding: 0px;
 }
 
+
 input {
     height: 50px;
     width: 110px;
@@ -44,7 +45,19 @@ input {
     border-color: rgba(0, 0, 0, 0);
     color: black;
     font-size: 1.5em;
+    transition: 0.3 all;
+    
 }
+
+input:hover {
+    background-color: bisque; 
+}
+
+input:active{
+    transform: scale(95%);
+    
+}
+
 
 #zero {
     height: 50px;
